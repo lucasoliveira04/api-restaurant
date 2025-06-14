@@ -37,5 +37,4 @@ public class PratoController {
         var pratos = pratoServices.getAllPratos();
         return ResponseEntity.ok(pratos);
     }
-    
 }

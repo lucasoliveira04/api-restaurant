@@ -11,9 +11,7 @@ import org.springframework.security.web.SecurityFilterChain;
 @Configuration
 @EnableWebSecurity
 public class SecurityConfiguration {
-    private static final String[] URLS_PUBLIC = {
-
-    };
+    private static final String[] URLS_PUBLIC = {"/api/pratos/add"};
 
     @Bean
     public SecurityFilterChain configure(HttpSecurity http) throws Exception {
